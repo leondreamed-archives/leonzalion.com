@@ -45,7 +45,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api';
-import EssentialLink from 'components/EssentialLink.vue';
+
+import EssentialLink from '~/components/EssentialLink.vue';
 
 const linksData = [
 	{

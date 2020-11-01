@@ -11,8 +11,9 @@
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api';
-import ExampleComponent from 'components/CompositionComponent.vue';
-import { Meta, Todo } from 'components/models';
+
+import ExampleComponent from '~/components/CompositionComponent.vue';
+import { Meta, Todo } from '~/components/models';
 
 export default defineComponent({
 	name: 'PageIndex',

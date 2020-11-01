@@ -6,7 +6,7 @@
   "author": "Leon Si <leonzalion@gmail.com>",
   "private": true,
   "scripts": {
-    "gen": "ts-node graphqlCodegen.ts"
+    "gen": "ts-node methods/generateGraphQLTypes.ts"
   },
   "dependencies": {
     "@graphql-codegen/core": "^1.17.8",

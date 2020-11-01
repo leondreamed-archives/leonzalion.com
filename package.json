@@ -7,6 +7,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "prune:strapi": "rm -rf packages/client packages/scripts packages/graphql packages/generated"
+  },
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.15.0",
