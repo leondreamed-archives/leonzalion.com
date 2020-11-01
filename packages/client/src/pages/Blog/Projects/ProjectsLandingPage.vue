@@ -1,4 +1,6 @@
-<template> </template>
+<template lang="pug">
+	p Landing page
+</template>
 
 <script>
 export default {

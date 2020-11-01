@@ -1,12 +1,28 @@
 {
 	"extends": "@quasar/app/tsconfig-preset",
+	"ts-node": {
+		"compilerOptions": {
+			"module": "commonjs"
+		}
+	},
 	"compilerOptions": {
+		"skipLibCheck": true,
+		"allowJs": true,
+		"moduleResolution": "node",
+		"module": "esnext",
+		"removeComments": false,
+		"rootDir": ".",
+		"strict": true,
+		"noImplicitAny": true,
 		"baseUrl": ".",
-		"target": "es5",
-		"esModuleInterop": true,
 		"paths": {
 			"~/*": ["./src/*"],
 			"~generated/*": ["../generated/src/*"]
-		}
-	}
+		},
+		"types": ["node", "./src/types", "@quasar/app/types"],
+		"strictNullChecks": false,
+		"esModuleInterop": true,
+		"resolveJsonModule": true
+	},
+	"exclude": ["../generated/*"]
 }

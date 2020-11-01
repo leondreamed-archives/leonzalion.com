@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+		"dev:client": "yarn workspace client dev",
     "prune:strapi": "rm -rf packages/client packages/scripts packages/graphql packages/generated",
     "prune:client": "rm -rf packages/strapi-server",
     "build:client": "yarn workspace client build",

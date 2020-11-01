@@ -1,4 +1,6 @@
-<template> </template>
+<template lang="pug">
+	p project
+</template>
 
 <script>
 export default {

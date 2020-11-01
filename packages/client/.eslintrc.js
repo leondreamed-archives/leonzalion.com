@@ -22,11 +22,13 @@ module.exports = {
 
 	// Rules order is important, please avoid shuffling them
 	extends: [
+		'../../.eslintrc.js',
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking',
+		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:vue/recommended',
 		'airbnb-base',
+		'prettier',
 	],
 
 	plugins: [
@@ -64,43 +66,43 @@ module.exports = {
 		// allow debugger during development only
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars-experimental': [
-      'error',
-      { ignoreArgsIfArgsAfterAreUsed: true },
-    ],
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        vue: 'off',
-        ts: 'never',
-      },
-    ],
-    'vue/html-indent': ['error', 'tab'],
-    '@typescript-eslint/no-misused-promises': [
-      'error',
-      {
-        checksVoidReturn: false,
-      },
-    ],
-    'no-lonely-if': 'off',
-    'no-void': 'off',
-    'no-underscore-dangle': 'off',
-    'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions': 'error',
-    'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': 'error',
-    'prefer-destructuring': [
-      'error',
-      {
-        array: false,
-      },
-    ],
-    'no-await-in-loop': 'off',
+		'no-unused-vars': 'off',
+		'@typescript-eslint/no-unused-vars': 'off',
+		'@typescript-eslint/no-unused-vars-experimental': [
+			'error',
+			{ ignoreArgsIfArgsAfterAreUsed: true },
+		],
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'import/extensions': [
+			'error',
+			'ignorePackages',
+			{
+				js: 'never',
+				vue: 'off',
+				ts: 'never',
+			},
+		],
+		'vue/html-indent': ['error', 'tab'],
+		'@typescript-eslint/no-misused-promises': [
+			'error',
+			{
+				checksVoidReturn: false,
+			},
+		],
+		'no-lonely-if': 'off',
+		'no-void': 'off',
+		'no-underscore-dangle': 'off',
+		'no-unused-expressions': 'off',
+		'@typescript-eslint/no-unused-expressions': 'error',
+		'no-shadow': 'off',
+		'@typescript-eslint/no-shadow': 'error',
+		'prefer-destructuring': [
+			'error',
+			{
+				array: false,
+			},
+		],
+		'no-await-in-loop': 'off',
 		'no-console': 'off',
 	},
 	settings: {

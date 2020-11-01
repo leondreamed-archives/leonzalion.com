@@ -13,37 +13,14 @@ const { configure } = require('quasar/wrappers');
 const path = require('path');
 
 module.exports = configure((ctx) => ({
-	// https://quasar.dev/quasar-cli/supporting-ts
 	supportTS: {
 		tsCheckerConfig: {
 			eslint: true,
 		},
 	},
-
-	// https://quasar.dev/quasar-cli/prefetch-feature
-	// preFetch: true,
-
-	// app boot file (/src/boot)
-	// --> boot files are part of "main.js"
-	// https://quasar.dev/quasar-cli/boot-files
-	boot: ['composition-api', 'axios'],
-
-	// https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
+	boot: ['composition-api', 'apollo'],
 	css: ['app.scss'],
-
-	// https://github.com/quasarframework/quasar/tree/dev/extras
-	extras: [
-		// 'ionicons-v4',
-		// 'mdi-v5',
-		// 'fontawesome-v5',
-		// 'eva-icons',
-		// 'themify',
-		// 'line-awesome',
-		// 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
-		'roboto-font',
-	],
-
-	// Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
+	extras: [],
 	build: {
 		vueRouterMode: 'history', // available values: 'hash', 'history'
 
@@ -62,6 +39,12 @@ module.exports = configure((ctx) => ({
 
 		// Options below are automatically set depending on the env, set them if you want to override
 		// extractCSS: false,
+
+		build: {
+			env: {
+				VUE_APP_STRAPI_URL: process.env.VUE_APP_STRAPI_URL,
+			},
+		},
 
 		// https://quasar.dev/quasar-cli/handling-webpack
 		extendWebpack(cfg) {
@@ -97,7 +80,7 @@ module.exports = configure((ctx) => ({
 
 	// https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
 	framework: {
-		iconSet: 'material-icons', // Quasar icon set
+		iconSet: 'svg-material-icons', // Quasar icon set
 		lang: 'en-us', // Quasar language pack
 		config: {},
 
