@@ -1,0 +1,27 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "description": "Code generation scripts for leonzalion.com",
+  "productName": "Leon Si",
+  "author": "Leon Si <leonzalion@gmail.com>",
+  "private": true,
+  "scripts": {
+    "gen": "ts-node graphqlCodegen.ts"
+  },
+  "dependencies": {
+    "@graphql-codegen/core": "^1.17.8",
+    "@graphql-codegen/typed-document-node": "^1.17.9",
+    "@graphql-codegen/typescript": "^1.17.11",
+    "@graphql-codegen/typescript-operations": "^1.17.8",
+    "@graphql-codegen/typescript-vue-apollo": "^2.1.1",
+    "@graphql-tools/load-files": "^6.2.4",
+    "@graphql-tools/merge": "^6.2.5"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "yarn": ">= 1.21.1"
+  }
+}

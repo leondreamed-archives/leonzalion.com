@@ -1,0 +1,7 @@
+query getArticleBySlug($slug: String!) {
+  articles(where: { slug: $slug }) {
+    title
+    content
+    published_at
+  }
+}

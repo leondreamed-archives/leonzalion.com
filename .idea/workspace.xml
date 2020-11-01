@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,7 +13,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="" />
+    <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/graphql/docs/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/graphql/docs/getArticleBySlug.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/graphqlCodegen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/strapi-server/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +36,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="GraphQL File" />
         <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -41,23 +59,34 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/client/src/layouts" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.0.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue}" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/packages/scripts" />
       <recent name="$PROJECT_DIR$/packages/client/src/layouts" />
     </key>
   </component>
@@ -75,6 +104,8 @@
       <workItem from="1604245284114" duration="1647000" />
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
+      <workItem from="1604253885355" duration="2050000" />
+      <workItem from="1604255947415" duration="1580000" />
     </task>
     <servers />
   </component>
@@ -98,13 +129,21 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1369" y="514" width="579" height="395" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604253621860" />
-    <state x="1208" y="316" key="SettingsEditor" timestamp="1604253870331">
+    <state x="1193" y="216" key="SettingsEditor" timestamp="1604256891057">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1208" y="316" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604253870331" />
-    <state x="1349" y="100" width="629" height="566" key="find.popup" timestamp="1604253248935">
+    <state x="1193" y="216" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604256891057" />
+    <state width="587" height="490" key="SwitcherDM" timestamp="1604257467413">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1349" y="100" width="629" height="566" key="find.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604253248935" />
+    <state width="587" height="490" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604257467413" />
+    <state x="1349" y="100" width="629" height="566" key="find.popup" timestamp="1604257153569">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1349" y="100" width="629" height="566" key="find.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604257153569" />
+    <state x="1455" y="352" width="672" height="678" key="search.everywhere.popup" timestamp="1604257098358">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1455" y="352" width="672" height="678" key="search.everywhere.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604257098358" />
   </component>
 </project>

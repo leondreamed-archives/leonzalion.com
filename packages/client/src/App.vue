@@ -1,12 +1,12 @@
-<template>
-  <div id="q-app">
-    <router-view />
-  </div>
+<template lang="pug">
+#q-app
+  router-view
 </template>
+
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
-  name: 'App',
+	name: 'App',
 });
 </script>
