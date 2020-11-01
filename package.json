@@ -11,7 +11,8 @@
     "prune:strapi": "rm -rf packages/client packages/scripts packages/graphql packages/generated",
     "prune:client": "rm -rf packages/strapi-server",
     "start:docs": "yarn workspace strapi-server start",
-    "heroku-prebuild": "yarn prune:strapi && yarn workspace strapi-server build",
+    "heroku-prebuild": "yarn prune:strapi",
+    "heroku-postbuild": "yarn workspace strapi-server build",
     "gen": "yarn workspace scripts gen",
     "postinstall": "yarn gen"
   },
