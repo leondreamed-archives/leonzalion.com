@@ -14,10 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strapi-server/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/generated/src/docs-graphql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/generated/src/docs-graphql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/methods/generateGraphQLTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/methods/generateGraphQLTypes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <workItem from="1604271523254" duration="373000" />
       <workItem from="1604271905699" duration="890000" />
       <workItem from="1604273226286" duration="495000" />
-      <workItem from="1604273731397" duration="735000" />
+      <workItem from="1604273731397" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -155,10 +155,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1190" y="196" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604273863988" />
-    <state width="587" height="514" key="SwitcherDM" timestamp="1604273974433">
+    <state width="587" height="514" key="SwitcherDM" timestamp="1604274965039">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604273974433" />
+    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604274965039" />
     <state x="1224" y="202" width="1112" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604264965557">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

@@ -46,7 +46,8 @@ export default async function generateGraphQLTypes() {
 			],
 			schema: docsSchema,
 		});
-		fs.writeFileSync(docsGraphQLOutputFile, docsTypescriptOutput);
+		fs.writeFileSync(docsGraphQLOutputFile, '/* eslint-disable */\n');
+		fs.appendFileSync(docsGraphQLOutputFile, docsTypescriptOutput);
 
 		const graphqlDocsQueries = loadFilesSync(
 			path.join(
