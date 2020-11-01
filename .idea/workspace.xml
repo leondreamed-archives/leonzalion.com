@@ -14,19 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/graphql/docs/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/graphql/docs/getArticleBySlug.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/scripts/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/scripts/graphqlCodegen.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/scripts/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/scripts/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/strapi-server/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strapi-server/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +79,19 @@
       <recent name="$PROJECT_DIR$/packages/client/src/layouts" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +107,7 @@
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
       <workItem from="1604253885355" duration="2050000" />
-      <workItem from="1604255947415" duration="1580000" />
+      <workItem from="1604255947415" duration="2778000" />
     </task>
     <servers />
   </component>
