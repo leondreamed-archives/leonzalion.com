@@ -6,7 +6,6 @@ module.exports = {
 	rules: {
 		// TypeScript
 		quotes: ['warn', 'single', { avoidEscape: true }],
-		'no-console': 'off',
 		'no-restricted-syntax': 'off',
 		eqeqeq: ['error', 'allow-null'],
 		'sort-imports': 'off',

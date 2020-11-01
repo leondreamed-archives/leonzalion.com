@@ -3,8 +3,31 @@ import { RouteConfig } from 'vue-router';
 const routes: RouteConfig[] = [
 	{
 		path: '/',
-		component: () => import('src/layouts/ArticleLayout.vue'),
-		children: [{ path: '', component: () => import('pages/Index.vue') }],
+		component: () => import('~/pages/LandingPage.vue'),
+	},
+	{
+		path: '/blog',
+		component: () => import('~/layouts/Blog'),
+		children: [
+			{
+				path: 'articles',
+				component: () =>
+					import('~/pages/Blog/Articles/ArticlesLandingPage.vue'),
+			},
+			{
+				path: 'projects',
+				component: () =>
+					import('~/pages/Blog/Projects/ProjectsLandingPage.vue'),
+			},
+			{
+				path: 'article/:slug',
+				component: () => import('~/pages/Blog/Articles/ArticlePage.vue'),
+			},
+			{
+				path: 'project/:slug',
+				component: () => import('~/pages/Blog/Projects/ProjectPage.vue'),
+			},
+		],
 	},
 
 	// Always leave this as last one,

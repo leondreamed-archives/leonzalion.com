@@ -1,0 +1,15 @@
+{
+  "name": "generated",
+  "version": "0.0.1",
+  "description": "Generated code for leonzalion.com",
+  "productName": "Leon Si",
+  "author": "Leon Si <leonzalion@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": ">= 10.18.1",
+    "yarn": ">= 1.21.1"
+  },
+  "devDependencies": {
+    "@vue/apollo-composable": "^4.0.0-alpha.12"
+  }
+}
