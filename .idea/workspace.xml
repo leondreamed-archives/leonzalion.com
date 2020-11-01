@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strapi-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +104,7 @@
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
       <workItem from="1604253885355" duration="2050000" />
-      <workItem from="1604255947415" duration="2778000" />
+      <workItem from="1604255947415" duration="2909000" />
     </task>
     <servers />
   </component>
