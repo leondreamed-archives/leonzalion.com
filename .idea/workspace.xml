@@ -14,12 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/scripts/methods/generateGraphQLTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/graphql/docs/getArticleBySlug.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/packages/graphql/docs/queries/getArticleBySlug.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/scripts/graphqlCodegen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/generateGraphQLTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/scripts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,7 @@
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
       <workItem from="1604253885355" duration="2050000" />
-      <workItem from="1604255947415" duration="4285000" />
+      <workItem from="1604255947415" duration="4760000" />
     </task>
     <servers />
   </component>
