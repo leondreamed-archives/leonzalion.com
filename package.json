@@ -10,11 +10,12 @@
   "scripts": {
     "prune:strapi": "rm -rf packages/client packages/scripts packages/graphql packages/generated",
     "prune:client": "rm -rf packages/strapi-server",
+    "build:client": "yarn workspace client build",
+    "start:client": "yarn workspace client start",
     "start:docs": "yarn workspace strapi-server start",
     "heroku-prebuild": "yarn prune:strapi",
     "heroku-postbuild": "yarn workspace strapi-server build",
-    "gen": "yarn workspace scripts gen",
-    "postinstall": "yarn gen"
+    "gen": "yarn workspace scripts gen"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.2.0",

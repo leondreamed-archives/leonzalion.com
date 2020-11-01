@@ -14,6 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/netlify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/netlify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +112,7 @@
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
       <workItem from="1604253885355" duration="2050000" />
-      <workItem from="1604255947415" duration="8624000" />
+      <workItem from="1604255947415" duration="8804000" />
     </task>
     <servers />
   </component>
@@ -138,10 +140,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1193" y="216" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604256891057" />
-    <state width="587" height="514" key="SwitcherDM" timestamp="1604266366133">
+    <state width="587" height="514" key="SwitcherDM" timestamp="1604267001202">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604266366133" />
+    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604267001202" />
     <state x="1224" y="202" width="1112" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604264965557">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

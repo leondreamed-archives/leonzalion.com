@@ -20,7 +20,8 @@ jobs:
 
       - run: sh ./packages/scripts/copyServerGraphQL.sh
       - run: yarn prune:client
-      - run: yarn install # Automatically runs `yarn gen`
+      - run: yarn install
+      - run: yarn gen
 
       - name: Build SPA
         run: yarn build:client
