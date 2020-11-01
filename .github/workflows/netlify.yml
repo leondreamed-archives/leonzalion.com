@@ -1,0 +1,36 @@
+name: Netlify Publish Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 12.x
+
+      - run: sh ./packages/scripts/copyServerGraphQL.sh
+      - run: yarn prune:client
+      - run: yarn install # Automatically runs `yarn gen`
+
+      - name: Build SPA
+        run: yarn build:client
+        env:
+          VUE_APP_STRAPI_URL: https://leonzalion.herokuapp.com/graphql
+
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_MASTER_SITE_ID }}
+        with:
+          args: deploy --dir=packages/client/dist/spa --prod

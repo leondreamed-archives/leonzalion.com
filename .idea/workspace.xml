@@ -14,7 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac88743b-d7fe-4d91-bd39-9f4ddd4f7207" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/netlify.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/generated/src/docs-graphql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/methods/generateGraphQLTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/methods/generateGraphQLTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/build.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/config/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/config/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi-server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +122,7 @@
       <workItem from="1604247006823" duration="319000" />
       <workItem from="1604250628028" duration="3247000" />
       <workItem from="1604253885355" duration="2050000" />
-      <workItem from="1604255947415" duration="4760000" />
+      <workItem from="1604255947415" duration="8182000" />
     </task>
     <servers />
   </component>
@@ -130,22 +142,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1369" y="514" width="579" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604253621860">
+    <state x="1366" y="494" width="595" height="395" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604264780276">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1369" y="514" width="579" height="395" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604253621860" />
+    <state x="1366" y="494" width="595" height="395" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604264780276" />
     <state x="1193" y="216" key="SettingsEditor" timestamp="1604256891057">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1193" y="216" key="SettingsEditor/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604256891057" />
-    <state width="587" height="514" key="SwitcherDM" timestamp="1604259700501">
+    <state width="587" height="514" key="SwitcherDM" timestamp="1604266366133">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604259700501" />
-    <state x="1349" y="100" width="629" height="566" key="find.popup" timestamp="1604259785127">
+    <state width="587" height="514" key="SwitcherDM/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604266366133" />
+    <state x="1224" y="202" width="1112" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604264965557">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1349" y="100" width="629" height="566" key="find.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604259785127" />
+    <state x="1224" y="202" width="1112" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604264965557" />
+    <state x="1349" y="100" width="710" height="566" key="find.popup" timestamp="1604264505703">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1349" y="100" width="710" height="566" key="find.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1604264505703" />
     <state x="1455" y="352" width="672" height="678" key="search.everywhere.popup" timestamp="1604257098358">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
